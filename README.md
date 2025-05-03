@@ -17,14 +17,27 @@ It can split multi-document YAML files into documents and diff them document-by-
 
 ## Installation
 
-1. Install [difftastic](https://github.com/Wilfred/difftastic) and ensure `difft` is in your `$PATH`.
-2. Build godiffyaml:
+### Homebrew
 
-   ```sh
-   git clone https://github.com/rgeraskin/godiffyaml.git
-   cd godiffyaml
-   go build -o godiffyaml ./cmd/godiffyaml
-   ```
+```sh
+brew install rgeraskin/homebrew/godiffyaml
+```
+
+### Go
+
+[Difftastic](https://github.com/Wilfred/difftastic) is required to run `diff` and `k8s` subcommands.
+
+```sh
+go install github.com/rgeraskin/godiffyaml/cmd/godiffyaml@master
+```
+
+## Build from source
+
+```sh
+git clone https://github.com/rgeraskin/godiffyaml.git
+cd godiffyaml
+go build -o godiffyaml ./cmd/godiffyaml
+```
 
 ## Usage
 
