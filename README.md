@@ -8,6 +8,8 @@ Human-readable diffs for yamls with multiple documents.
 
 It can split multi-document YAML files into documents and diff them document-by-document using custom keys. This makes the diff to be human-readable and easier to understand.
 
+Check out my blog post [here](https://blog.rgeraskin.dev/godiffyaml) for more details.
+
 ## Features
 
 - **Diff YAML files**: Split multi-document YAML files and diff them document-by-document using custom keys.
